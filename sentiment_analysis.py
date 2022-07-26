@@ -57,7 +57,7 @@
 #     return sentiment
 
 
-# print(predict('this is a great phone to buy'))
+# print(predict('Este es un buen teléfono para comprar.'))
 
 
 
@@ -140,7 +140,7 @@
 
 # def predict_review():
 
-#     sentence = ["Great phone do buy it. It is an awesome purchase with great battery life"]
+#     sentence = ["Gran teléfono para comprar. Es una gran compra, con buena vida útil de la batería."]
 #     sequences = tokenizer.texts_to_sequences(sentence)
 #     print(sequences)
 #     padded = pad_sequences(sequences, maxlen=max_length, padding=padding_type, truncating=trunc_type)
@@ -177,7 +177,7 @@
 # #                 predicted_emotion=key
 # #         return predicted_emotion, predicted_emotion_img_url
 
-# # print(predict_review('Great phone do buy it. It is an awesome purchase with great battery life'))
+# # print(predict_review('Gran teléfono para comprar. Es una gran compra, con buena vida útil de la batería.'))
 # predict_review()
 
 
@@ -349,6 +349,6 @@ def predict(text):
                 predicted_emotion=key
         return predicted_emotion, predicted_emotion_img_url
 
-print(predict('Great phone, do buy it. It has long lasting battery and beautiful display'))
+print(predict('Gran teléfono para comprar. Es una gran compra, con buena vida útil de la batería.'))
 
 
